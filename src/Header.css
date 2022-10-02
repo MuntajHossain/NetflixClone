@@ -1,0 +1,59 @@
+
+header {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+  }
+  .header-left {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .header-left img {
+    /* max-width: 100%; */
+    max-height: 50px;
+  }
+  
+  .header-middle {
+    flex: 5;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+  }
+  .header-menu {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  .header-menu:hover {
+    background-color: slategray;
+  }
+  
+  .header-right {
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2em;
+  }
+  
+  .profile {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .profile img {
+    height: 50px;
+  }
