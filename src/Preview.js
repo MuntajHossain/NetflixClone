@@ -1,5 +1,6 @@
 import React from "react";
 import preview from "./Assets/Videos/big_buck_bunny.mp4";
+import HorizontalCardList  from "./HorizontalCardList";
 import "./Preview.css";
 
 export default function Preview() {
@@ -16,6 +17,7 @@ export default function Preview() {
           </div>
           <div className="play-button">PLAY</div>
         </div>
+        <HorizontalCardList/>
       </div>
     </div>
   );

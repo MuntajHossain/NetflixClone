@@ -1,0 +1,22 @@
+.card-list-view{
+    width: calc(100% - 4em);
+    height: 200px;
+    z-index: 5;
+    color: red;
+    position: absolute;
+    top: 65%;
+    margin: 0 2em ;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    border: black solid 2px;
+    overflow: scroll;
+}
+
+.card{
+    margin: 10px;
+    height: 100%;
+    width: 150px;
+    background-color: aqua;
+    border-radius: 10px;
+}
