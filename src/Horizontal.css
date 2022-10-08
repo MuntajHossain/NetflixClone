@@ -1,9 +1,9 @@
-.card-list-view{
-    width: calc(100% - 4em);
+.card-list-view1{
+    width: calc(100%-4em);
     height: 200px;
     z-index: 5;
     color: red;
-    position: absolute;
+    position: relative;
     top: 65%;
     margin: 0 2em ;
     padding: 10px 0;

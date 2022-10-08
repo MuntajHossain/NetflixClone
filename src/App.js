@@ -2,6 +2,8 @@
 import './App.css';
 import Header  from './Header';
 import Preview  from './Preview';
+// import HorizontalCardList from './HorizontalCardList';
+import Horizontal from "./Horizontal ";
 
 
 function App() {
@@ -9,7 +11,7 @@ function App() {
     <div className="App">
       <Header/>
       <Preview/>
-      {/* <h1>hello</h1> */}
+      <Horizontal/>
     </div>
   );
 }
