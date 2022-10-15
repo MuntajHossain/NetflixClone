@@ -1,16 +1,16 @@
 .card-list-view{
-    width: calc(100% - 4em);
-    height: 200px;
-    z-index: 5;
+    /* width: calc(100% - 4em); */
+    min-height: 100%;
+    /* z-index: 5; */
     color: red;
-    position: absolute;
-    top: 65%;
-    margin: 0 2em ;
+    /* position: relative; */
+    /* margin: 0 2em ; */
     padding: 10px 0;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     /* border: black solid 2px; */
     overflow: scroll;
+    /* align-self: stretch; */
 }
 
 .card{
@@ -22,6 +22,13 @@
     display: flex;
     align-items: center;
     overflow: hidden;
+}
+
+.card:first-child{
+    margin-left: 0;
+}
+.card:last-child{
+    margin-right: 0;
 }
 
 .card img{

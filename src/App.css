@@ -37,6 +37,25 @@
   }
 }
 
-.relative-positioning{
+.relative-positioning {
   position: relative;
+}
+
+.recomended {
+  width: calc(100% - 4em);
+  height: 200px;
+  /* background-color: red; */
+  color: red;
+  position: relative;
+  margin: 0 2em;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.relative-card-section-holder{
+  display: block;
+  margin:20px;
+  width:calc(100%-4em);
+  margin: 0 2em;
 }
