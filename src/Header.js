@@ -8,7 +8,7 @@ export default function Header() {
     <header>
       <div className="header-left">
         <a href="/">
-          <img src={logo} />
+          <img src={logo} alt=""/>
         </a>
       </div>
       <div className="header-middle">

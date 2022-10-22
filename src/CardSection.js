@@ -7,7 +7,7 @@ export default function CardSection(props){
         <div className="card-list-container">
           <span >{props.name}</span>
           <div className="list-container">
-            <HorizontalCardList name={props.name} movies={props.movies}/>
+            <HorizontalCardList name={props.name} movies={props.movies} setMovie={props.setMovie}/>
           </div>
         </div>
     );
